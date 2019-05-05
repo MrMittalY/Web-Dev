@@ -1,0 +1,18 @@
+h1{	
+	color: #000000;
+	font-family: 'Righteous';
+	font-size: 50px;
+	float:right;
+	margin-left: 60%;
+	margin-right: 1.66%;
+	text-transform: uppercase;
+	border-bottom: 2px solid gray;
+}
+
+img {
+	width: 30%;
+	height: 400px;
+	float:left;
+	margin: 1.66%;
+	object-fit: cover;
+}
