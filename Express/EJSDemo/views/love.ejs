@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+<!-- include header template -->
+
+	<h1>
+		You are in love with:   <%= thingVar.toUpperCase(); %>
+	</h1>
+
+	<% if (thingVar==="dog") { %>
+		<p>	You have a good choice</p>
+	<% } else { %>
+		<p> Dont worry. U still have better choice!</p>
+		
+	<% } %>
+
+<!-- include footer template -->
+<%- include("partials/footer") %>
